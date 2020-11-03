@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Hangman</title>
+</head>
+<body>
+
+  <h1>Hangman</h1>  
+  <p class="small">For this test more than 500 words are avalable.</p>
+  <p class="small">Frome LEVEL 1 (length of word is 4 characters) to LEVEL 9 (max lenght of 12 characters)</p>  
+    
+  <main id="main">
+    <div class="row">
+      <p id="level">LEVEL</p>
+      <p id="guess"></p>
+      <p id="try">TRY</p>
+      <button id="start">Start</button>
+    </div>
+    
+    <div id="button_wraper"></div>        
+
+    <div class="wrap_canvas_info">
+      <canvas id="canvas" width="700" height="430">  
+        Votre navigateur ne supporte pas Canvas :(
+      </canvas>           
+      
+    </div>
+      
+
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
