@@ -6,8 +6,8 @@
     Duration : 2,5 days
     Deadline : 03/11/2020, 12:30 pm
 
-## WEB Github Page
- 
+## HANGMAN Github Web Page
+[https://gaetano-di-salvo.github.io/hangman/](https://gaetano-di-salvo.github.io/hangman/) 
 
 ## The mission
 
