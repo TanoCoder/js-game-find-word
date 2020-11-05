@@ -7,13 +7,15 @@ body{
 main{
   width: 100%;
   display: flex;
-  flex-direction: column;    
+  flex-direction: column;  
+   
 }
 
 .row{
   display: flex;
   flex-direction: row;  
   justify-content: center;  
+  flex-wrap: wrap;
   margin-top: 5px;
 }
 
@@ -26,6 +28,7 @@ canvas{
   
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 h1{
@@ -70,6 +73,7 @@ span{
   text-align: center;  
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -86,9 +90,21 @@ span{
 }
 
 #try{
-  width: 10%;
+  //width: 20%;
   font-size: 1.3em;
   text-align: right;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
 }
+
+/* On screens that are 600px or less 
+@media screen and (max-width: 600px) {
+  #button_wraper{
+    background-color: green;
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+*/
