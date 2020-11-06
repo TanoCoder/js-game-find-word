@@ -9,6 +9,11 @@
 ## HANGMAN Github Web Page
 [https://gaetano-di-salvo.github.io/hangman/](https://gaetano-di-salvo.github.io/hangman/) 
 
+## Realized with
+HTML
+CSS
+JavaScript
+
 ## The mission
 
 You have to make a website version of the hangman word game. 
