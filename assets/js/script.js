@@ -323,7 +323,14 @@ btn.forEach(b => {
           span[position -1].innerText = "ù"; 
           nbGuessed++;
           isBtnLetterInWordToGuess = true; 
-         }                 
+         }
+         
+         if(wtg.toLowerCase() == "û"){
+          //alert("ok =");          
+          span[position -1].innerText = "û"; 
+          nbGuessed++;
+          isBtnLetterInWordToGuess = true; 
+         }
       }
 
       if (letter[indiceLetter].toLowerCase() == wtg.toLowerCase()){ 
@@ -379,7 +386,7 @@ btn.forEach(b => {
       drawFace("assets/img/happy-03.jpg",38,325);
       
       ctx.font = "30px Comic Sans MS";
-      ctx.fillStyle = "red";
+      ctx.fillStyle = "green";
       ctx.textAlign = "center";
       ctx.fillText("WELL DONE, GO TO THE NEXT LEVEL", canvas.width / 2, 50);
 
@@ -587,9 +594,9 @@ function start(){
   htmlTry.innerText = `TRY ${nbTry} / ${nbMaxTry}`;
   
   // New Random
-  //random number based on the level based on the len of the word  
+  //random number based on the level based on the len of the word      
   wordToGuess = resetRandom();  
-     
+       
   btn.forEach(b =>{    
     b.style.display = "flex";  
     b.style.visibility = "visible";
