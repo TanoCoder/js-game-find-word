@@ -10,9 +10,9 @@
 [https://gaetano-di-salvo.github.io/hangman/](https://gaetano-di-salvo.github.io/hangman/) 
 
 ## Realized with
-HTML
-CSS
-JavaScript
+ HTML
+ CSS
+ JavaScript
 
 ## The mission
 
