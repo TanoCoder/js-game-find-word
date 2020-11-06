@@ -1,7 +1,7 @@
 
 body{
   margin-left: 5%;
-  margin-right: 5%;  
+  margin-right: 5%;      
 }
 
 main{
@@ -20,15 +20,13 @@ main{
 }
 
 canvas{  
-  text-align: center;
- // border: 1px solid darkblue;
-  width: 700px;
+  text-align: center; 
+  width: 60%;
   margin-top: 5px;
   margin-bottom: 0px;
   
   margin-right: auto;
-  margin-left: auto;
-  
+  margin-left: auto;  
 }
 
 h1{
@@ -98,13 +96,9 @@ span{
   
 }
 
-/* On screens that are 600px or less 
-@media screen and (max-width: 600px) {
-  #button_wraper{
-    background-color: green;
-    display: flex;  
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+.cr {
+  text-align: center;
+  font-size: 0.8em;
+  color: black;
+  margin-top: 10px;
 }
-*/

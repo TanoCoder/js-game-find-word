@@ -433,7 +433,7 @@ btn.forEach(b => {
           if(isBtnLetterInWordToGuess){
             drawFace("assets/img/happy-01.png",40,325);
           } else {            
-            drawFace("assets/img/middle-01.jpg",38,325);  
+            drawFace("assets/img/middle-01.jpg",40,325);  
           }
           break;
   

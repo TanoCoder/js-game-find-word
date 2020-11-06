@@ -32,7 +32,7 @@ main {
 
 canvas {
   text-align: center;
-  width: 700px;
+  width: 60%;
   margin-top: 5px;
   margin-bottom: 0px;
   margin-right: auto;
@@ -115,14 +115,10 @@ span {
   margin-right: 5px;
 }
 
-/* On screens that are 600px or less 
-@media screen and (max-width: 600px) {
-  #button_wraper{
-    background-color: green;
-    display: flex;  
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+.cr {
+  text-align: center;
+  font-size: 0.8em;
+  color: black;
+  margin-top: 10px;
 }
-*/
 /*# sourceMappingURL=style.css.map */
