@@ -11,9 +11,9 @@
 
 ## Realized with
  
- HTML
- CSS
- JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ## The mission
 
