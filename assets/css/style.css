@@ -1,4 +1,6 @@
 body {
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -27,13 +29,14 @@ main {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 5px;
+  margin: 0px;
+  padding: 0px;
 }
 
 canvas {
   text-align: center;
   width: 60%;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-right: auto;
   margin-left: auto;
@@ -53,8 +56,8 @@ h1, p {
   font-size: 1.4em;
   color: brown;
   margin-right: 7%;
-  margin-top: 0;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 span {
@@ -75,6 +78,8 @@ span {
 
 .small {
   font-size: small;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #button_wraper {
@@ -98,14 +103,17 @@ span {
 
 .all-btn-letter {
   color: blue;
-  font-size: 1.4em;
-  padding: 2px;
+  font-size: 1.4rem;
+  padding: 2px 5px 2px 5px;
+  margin: 1px 3px 1px 3px;
 }
 
 .wrap_canvas_info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #try {
@@ -113,6 +121,7 @@ span {
   text-align: right;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 0px;
 }
 
 .cr {
@@ -120,5 +129,9 @@ span {
   font-size: small;
   color: black;
   margin-top: 10px;
+}
+
+#guess {
+  margin-bottom: 0px;
 }
 /*# sourceMappingURL=style.css.map */
